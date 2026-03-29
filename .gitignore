@@ -1,0 +1,49 @@
+# Dados e extensões específicas
+complaints_with_sentiment.csv
+complaints_processed.csv
+complaints_sentiment_credit_card.csv
+complaints_sentiment_credit_reporting.csv
+complaints_sentiment_debt_collection.csv    
+complaints_sentiment_mortgages_and_loans.csv
+complaints_sentiment_retail_banking.csv 
+*.csv
+
+# Pastas de sistema e ambiente
+venv/
+.vscode/
+__pycache__/
+.ipynb_checkpoints/
+
+# Modelos e arquivos de saída
+*.pkl
+*.h5
+*.joblib
+*.pth
+*.pt
+*.model
+
+# Logs e arquivos temporários
+logs/
+*.log
+temp/
+tmp/
+*.tmp
+*.bak
+.DS_Store
+*.swp
+*.swo
+thumbs.db
+
+# Pastas de Dados (Datasets)
+data/
+datasets/
+FIAP_TECH_CHALENGE_05/
+README.md
+
+# Dados e Modelos Pesados (Não enviar para o Git)
+*.csv
+*.xlsx
+*.pkl
+*.h5
+*.pth
+*.joblib
