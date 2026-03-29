@@ -47,3 +47,7 @@ README.md
 *.h5
 *.pth
 *.joblib
+
+# Configurações de ambiente e dependências
+.env
+requirements.txt
